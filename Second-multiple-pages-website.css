@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1A1244;
-    align-items: center;
-    border-bottom: 4px solid #401E63;
-}
-
 .logo{
     padding: 10px 0;
     margin-left: 120px;
@@ -26,6 +18,17 @@ nav{
 .logo:hover a{
     color: red;
 }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    align-items: center;
+    border-bottom: 4px solid #401E63;
+}
+
+
 
 nav ul{
     display: flex;
@@ -43,6 +46,20 @@ nav ul li a{
     padding: 6px 20px;
      transition: 0.5s;
 }
+
+nav ul i{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+nav ul i:hover{
+    color: green;
+    transform: rotate(360deg);
+}
+
+
 nav ul li:hover a{
     color: red;
     background-color: black;
