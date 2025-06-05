@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 #full-page-container{
     display: flex;
     justify-content: flex-end;
