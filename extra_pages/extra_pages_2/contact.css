@@ -85,7 +85,8 @@
     transition: 0.5s;
 }
 .icon i:hover{
-   color: #1877F2; 
+    transform: rotate(360deg);
+    color: #1877F2; 
 }
 
 
@@ -184,6 +185,10 @@
     color: red;
     font-size: 20px;
     font-weight: bold;
+    transition: 0.5s;
+}
+.dont-account a:hover{
+    color: green;
 }
 
 
