@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#full-page-container{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('contack-images/login-bacground.jpeg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+.carton-image{
+    
+    height: 305px;
+   
+}
+.carton-image img{
+    width: 400px;
+    margin-top: 440px;
+}
+
+
+#full-login-page-parent{
+    width: 850px;
+    margin: auto;
+    margin-top: 170px;
+    background-image: url('contack-images/login-bacground.jpeg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px black;
+}
+
+
+.text-login-parent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.login-page-div{
+    width: 420px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.login-text{
+    padding-top: 20px;
+}
+
+.login-text h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 130px;
+}
+.login-text h2{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login-text p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: -10px;
+    padding-bottom: 20px;
+}
+.icon i{
+    font-size: 25px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon i:hover{
+   color: #1877F2; 
+}
+
+
+.main-login-area-parent{
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.main-login-area-parent h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.email input{
+    font-size: 20px;
+    width: 300px;
+    border-radius: 5px;
+    height: 38px;
+}   
+
+.email i{
+    font-size: 20px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 9px;
+}
+
+
+.password input{
+    font-size: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 38px;
+    margin-bottom: 20px;
+}   
+.password i{
+    font-size: 20px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 58px;
+}
+
+
+.checkbox-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-parent input{
+    width: 18px;
+}
+.checkbox-parent span{
+    margin-left: -30px;
+    font-size: 20px;
+    color: white;
+}
+
+.forget a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 30px;
+}
+.button button{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 120px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f55454;
+    cursor: pointer; 
+    transition: 0.5s;
+    
+}
+.button button:hover{
+    background-color: #f80909;
+}
+
+
+.dont-account{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.dont-account a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
